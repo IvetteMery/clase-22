@@ -1,0 +1,39 @@
+
+body {
+  display: flex;
+  background: #cacaca;
+}
+
+aside {
+  flex: 1;
+}
+
+label {
+  display: flex;
+}
+
+.container {
+  flex: 3;
+  display: flex;
+}
+
+.product {
+  background-color: #fff;
+  padding: 30px 25px;
+  text-align: center;
+  margin: 10px;
+  flex: 1;
+}
+
+.product-img-container {
+  height: 250px;
+}
+
+.product-img {
+  height: 100%;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
