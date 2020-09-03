@@ -12,7 +12,10 @@
   </head>
   <body>
     <aside>
-      <div>Filtro <input type="text" id="filtro" /></div>
+      <div>
+        <label>Filtro <input type="text" id="filtro" />
+        </label>
+        </div>
 
       <h3 class="filter-name">PUNTAJE</h3>
       <label>
@@ -21,6 +24,7 @@
           name="review"
           class="filter review-filter"
           value="5"
+          id="checkbox-5"
         />
         <div class="review">
           <i class="fas fa-star" aria-hidden="true"></i>
@@ -37,6 +41,7 @@
           name="review"
           class="filter review-filter"
           value="4"
+          id="checkbox-4"
         />
         <div class="review">
           <i class="fas fa-star" aria-hidden="true"></i>
@@ -99,7 +104,12 @@
 
     <div class="container">
 
-      <article class="product">
+      <article class="product"
+      data-nombre="iphone"
+      data-categoria="celulares"
+      data-precio="22499"
+      data-rating="5"
+      >
         <div class="product-img-container">
           <img src="http://www.placekitten.com/600" class="product-img" />
         </div>
@@ -116,7 +126,12 @@
         </div>
       </article>
 
-      <article class="product">
+      <article class="product"
+      data-nombre="android"
+      data-categoria="celulares"
+      data-precio="22499"
+      data-rating="4"
+      >
         <div class="product-img-container">
           <img src="http://www.placekitten.com/500" class="product-img" />
         </div>
@@ -133,7 +148,11 @@
         </div>
       </article>
 
-      <article class="product">
+      <article class="product"
+      data-nombre="samsung"
+      data-categoria="celulares"
+      data-precio="22499"
+      data-rating="3">
         <div class="product-img-container">
           <img src="http://www.placekitten.com/700" class="product-img" />
         </div>
